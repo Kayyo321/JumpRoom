@@ -18,19 +18,19 @@ We want...
 
 # Development plans
 
-## * Alpha Stage
+## *α* Alpha Stage
 
 - [ ] Go through HTML & CSS course with group to get us all up to speed with designing the website layout
 - [ ] Get servers to hold all student, teacher, and class data
 - [ ] Design registration (login) system for all users
 
-## * Beta Stage
+## *β* Beta Stage
 
 - [ ] Begin storing data (such as grades, papers, presentations, etc.) in said servers
 - [ ] Integrate a usable interface for students & teachers to view their work
 - [ ] Allow for the use of AI to assist teachers
 
-## * Release Stage
+## :envelope: Release Stage
 
 - [ ] Allow for each class (and individual work) to have a specified grading system (1-100, 1-4, A-B-C, etc.)
 - [ ] Let teachers design the layout of their classes (color scheme, side-scrolling photos, etc.)
