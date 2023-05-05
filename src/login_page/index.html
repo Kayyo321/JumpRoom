@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<h1 class="JumpRoomTitle">JumpRoom</h1>
+		<h2 class="WelcomeBackTitle">Welcome Back!</h2>
+		<a class="SignUpTitle" href="../login_page/index.html">Log In...</a>
+
+		<div class="login">
+			<h1>Create your account</h1>
+			<form action="authenticate.php" method="post">
+				<input type="checkbox" id="isteacher" name="isteacher" value="IsTeacher">
+				<div for="isteacher">Are You A Teacher?</div>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<input type="text" name="Fullname" placeholder="Full Name" id="fullname" required>
+				<input type="submit" value="Create">
+			</form>
+		</div>
+	</body>
+</html>
