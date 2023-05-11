@@ -6,7 +6,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 body {
-    background-color: #435165;
+    background-image: linear-gradient(to bottom left, black, rgb(100, 99, 99));
 }
 .login {
     width: 400px;

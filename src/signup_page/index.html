@@ -7,15 +7,18 @@
 	</head>
 	<body>
 		<h1 class="JumpRoomTitle">JumpRoom</h1>
-		<h2 class="WelcomeBackTitle">Welcome Back!</h2>
-		<a class="SignUpTitle" href="../signup_page/index.html">Sign Up...</a>
+		<h2 class="WelcomeBackTitle">Happy You're Here!</h2>
+		<a class="SignUpTitle" href="../login_page/index.html">Log In...</a>
 
 		<div class="login">
-			<h1>Sign into your account</h1>
-			<form action="authenticate.php" method="post">
+			<h1>Create your account</h1>
+			<form method="post">
+				<input type="checkbox" id="isteacher" name="isteacher" value="IsTeacher">
+				<div for="isteacher">Are You A Teacher?</div>
 				<input type="text" name="username" placeholder="Username" id="username" required>
 				<input type="password" name="password" placeholder="Password" id="password" required>
-				<input type="submit" value="Login">
+				<input type="text" name="Fullname" placeholder="Full Name" id="fullname" required>
+				<input type="submit" value="Create">
 			</form>
 		</div>
 	</body>
